@@ -2,8 +2,6 @@ body{
     /*whe we fix navbar to the top it takes navbar out from the normal flow, other elements will act as if it does not 
     exit and take up its space, hence we need to add padding to the top is to aviod content being blocked by navbar*/
     margin-top: 100px;
-    background: url(/img/hero1.jpg) center top fixed;
-    background-size: cover;
 }
 
 /*
