@@ -78,9 +78,9 @@ body{
    }
 
  #footer1 {
-    background-color:#FFC700;
+    background-color: rgb(255,199,0);
  }
  #footer2 {
-    background-color:#025687;
+    background-color: rgb(2,86,135);
     font-size: small;
  }
