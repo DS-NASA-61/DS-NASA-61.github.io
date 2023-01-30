@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+#hero-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1053px;
+    max-width:1439px;
+    margin-left:auto;
+    margin-right:auto;
+   }
+   #hero-logo{
+    background-image: url("img/modified_Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 890px;
+    width:auto;
+   }
+   #home{
+    margin-left: 5px;
+   }
+   .navbar-brand{
+    margin-top: 5px;
+   }
+
+   .navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    margin:0%;
+
+    font-family: Oswald; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 8px;
+    letter-spacing: 0.1em;
+    
+  }
+
+  .navbar img{
+    margin-left:10%
+  }
+  .navbar button{
+    margin-right:10px;
+  }
+  .navbar a{
+    margin-left: 20px;
+    font-family: Oswald; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: white
+  }
+  #sand-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("img/sandybgimg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3791px;
+    max-width:1439px;
+    margin-left:auto;
+    margin-right:auto;
+   }
+
+   .menu img{
+      border-radius: 10%;
+      object-fit: cover;
+      aspect-ratio: 2 / 1;
+      background-position: center center;
+      background-repeat: no-repeat;
+   }

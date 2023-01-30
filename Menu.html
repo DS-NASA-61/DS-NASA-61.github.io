@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <title>menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Navbar start -->
+        <!--nav-expand is to make the nav bar responsive-->
+        <nav class="navbar navbar-dark fixed-top navbar-inverse navbar-expand-md">
+            <div class="container">
+                <!-- "navbar-brand" class is applied to typical branding logo in the top 
+                navigation bar.It may just contain a typical image logo or text.-->
+                <a href="cover.html" class="navbar-brand fw-bolder">
+                    <!--if use <span>Home</span> instead of the Bootstrap way of"Image and text", the text will end up far right 
+                   due to the div container items spacing, and cannot use .container.d-flex as they cancle each other-->
+                    <img src="/img/logo.png" alt="Logo" height="60" width="60" class="me-2" />Home
+                </a>
+                <!--in BS as it is mobile first, so need to put button above ul, since when sm the button wil be on top of ul-->
+                <!--Bootstrap5 updated the naming for data attributes which are commonly used by its components, from 
+                data- to data-bs-, this is to help distinguish Bootstrap functionality from third party ones and 
+                your own codes.-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburgerBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-2" id="hamburgerBar">
+                    <!--ms-auto will align the li items to the right-->
+                    <ul class="navbar-nav fw-bolder ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">What's New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Catering</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Locate Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Career</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar ends -->
+
+        <!-- Menu starts -->
+        <section class="menu text-light text-center">
+            <div class="menu-header container"> <!--position-fixed start-50 translate-middle??-->
+                <h1 class="title fw-bolder text-decoration-underline">Menu</h1>
+            </div>
+
+            <!-- Menu category carousel-->
+            <div class="menu-carousel container"> <!--position-fixed start-50 translate-middle??-->
+
+                <div class="owl-carousel owl-theme pt-5">
+                    <!--menu ctgy card 1-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/protein.png" alt="LJS Golden Deals" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>JS Golden Deals</h4>
+                    </div>
+
+                    <!--menu ctgy card 2-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/seafood.png" alt="Captain's Combo" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>Captain's Combo</h4>
+                    </div>
+
+                    <!--menu ctgy card 3-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/salmon.png" alt="Grill Plate" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>Grill Plate</h4>
+                    </div>
+
+                    <!--menu ctgy card 4-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/clam-chowder.png" alt="Sides" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>Sides</h4>
+                    </div>
+
+                    <!--menu ctgy card 5-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/soft-drink.png" alt="Drinks" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>Drinks</h4>
+                    </div>
+
+                    <!--menu ctgy card 6-->
+                    <div class="d-flex flex-column align-content-center align-items-center m-0">
+                        <img src="/img/menu-category/sandwich.png" alt="Breakfast" class="card-img-top"
+                            style="filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%); width: 5rem;" />
+                        <h4>Breakfast</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu details start-->
+        <section class="text-dark-emphasis text-center position-relative">
+            <div class="menu-details container d-flex flex-wrap justify-content-center text-wrap p-2">
+
+                <!--card 1-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new-1pc Fish meal - wix.webp" alt="1pc Fish meal">
+                    <div class="card-body" id="test">
+                        <h5 class="card-title">Fish</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$5.00</p>
+                    </div>
+                </div>
+
+                <!--card 2-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new-chicken and spicy chicken meal - wix.webp" alt="chicken and spicy chicken meal">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken & Spicy Chicken</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$5.50</p>
+                    </div>
+                </div>
+
+                <!--card 3-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new-3pc chicken meal - wix.webp" alt="3pc chicken meal">
+                    <div class="card-body">
+                        <h5 class="card-title">3pc Chicken</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$6.90</p>
+                    </div>
+                </div>
+
+                <!--card 4-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new-Fish and Chicken meal - wix.webp" alt="Fish and Chicken meal">
+                    <div class="card-body">
+                        <h5 class="card-title">Fish & Chicken</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$6.70</p>
+                    </div>
+                </div>
+
+                <!--card 5-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new - 2pc fish meal - wix.webp" alt="2pc fish meal">
+                    <div class="card-body">
+                        <h5 class="card-title">2pc Fish</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$6.90</p>
+                    </div>
+                </div>
+
+                <!--card 6-->
+                <div class="card border-0 m-5" style="width: 20rem;">
+                    <img src="/img/1new - 2pc chicken and 2pc spicy shrimp meal - wix.webp"
+                        alt="2pc chicken and 2pc spicy shrimp meal">
+                    <div class="card-body">
+                        <h5 class="card-title">2pc Chicken & 2pc Spicy Shrimp</h5>
+                        <div class="table-group-divider"></div>
+                        <p class="card-text fs-6 pt-2">served with a side and regular Coca-Cola/Coca-Cola Zero
+                            Sugar/Sprite</p>
+                        <p class="card-text fs-5 fw-bolder">$6.90</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer class="">
+            <div id="footer1"
+                class="p-3 col-12 d-flex flex-column align-items-center flex-md-row justify-content-md-center">
+                <div class="pe-md-5">
+                    <h5>Stay in contact with us</h5>
+                </div>
+                <div class="text-center flex-nowrap pe-md-5">
+                    <span class="icon mx-1"><iconify-icon icon="teenyicons:instagram-solid"></iconify-icon></span>
+                    <span class="icon mx-1"><iconify-icon icon="akar-icons:facebook-fill"></iconify-icon></span>
+                </div>
+                <h5 class="m-0">
+                    customerservice@zensho.sg
+                </h5>
+            </div>
+            <div id="footer2" class="p-3 col-12 d-flex flex-row justify-content-center align-items-center">
+                <div class="text-white d-flex flex-column flex-md-row justify-content-md-between">
+                    <div class="pb-1 pb-md-0 pe-md-5">
+                        Visuals are for illustration purposes only.
+                    </div>
+                    <div class="pb-1 pb-md-0 pe-md-5">
+                        Prices stated are inclusive of GST.
+                    </div>
+                    <div class="pb-1 pb-md-0 pe-md-5">
+                        © 2023 Long John Silver's Singapore
+                    </div>
+                </div>
+                <div class="ps-5 ps-md-0">
+                    <img src="img/halal.png" id="halal" style="height: 2.5rem;">
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+    </body>
+
+</html>

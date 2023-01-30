@@ -1,0 +1,87 @@
+body{
+    /*whe we fix navbar to the top it takes navbar out from the normal flow, other elements will act as if it does not 
+    exit and take up its space, hence we need to add padding to the top is to aviod content being blocked by navbar*/
+    margin-top: 100px;
+    background: url(/img/hero1.jpg) center top fixed;
+    background-size: cover;
+}
+
+/*
+body{
+    /*https://www.tutorialrepublic.com/faq/css-background-opacity-without-effecting-the-child-elements.php8
+    this is to change the opacity of an element's background without affecting the child elements or text content
+    background: linear-gradient(rgba(2,86,136,0.5),rgba(255,199,0,0.5))
+    background: (rgba(255,255,255,0.5));
+    margin: 10px;
+}*/
+
+   .navbar-brand{
+    margin-top: 5px;
+   }
+
+   .navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    margin:0%;
+
+    font-family: Oswald; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 8px;
+    letter-spacing: 0.1em;
+    
+  }
+
+  .navbar img{
+    margin-left:10%
+  }
+  .navbar button{
+    margin-right:10px;
+  }
+  .navbar a{
+    margin-left: 20px;
+    font-family: Oswald; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: white
+  }
+
+
+.title{
+    color: aliceblue;
+}
+
+/* .menu{
+    margin-top: 800px;
+}
+
+.owl-carousel{
+    margin-top: 120px;
+}
+
+.menu-details{
+    margin-top: 140px;
+} */
+
+.card{
+    background: rgba(255,255,255,0.8);
+}
+
+#footer1 {
+    background-color: #FFC700;
+}
+#footer2 {
+    background-color: #025687;
+    font-size: small;
+}
+
+.navbar-toggler-icon{
+    filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%);
+}
