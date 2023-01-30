@@ -76,3 +76,11 @@ body{
       background-position: center center;
       background-repeat: no-repeat;
    }
+
+#footer1 {
+    background-color: #FFC700;
+}
+#footer2 {
+    background-color: #025687;
+    font-size: small;
+}
