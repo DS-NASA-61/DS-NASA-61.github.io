@@ -2,6 +2,20 @@
     font-family: 'Oswald', sans-serif;
     background-color: rgb(7, 48, 94);
 }
+.homepage {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(7, 48, 94);
+}
+.homepage .title-card {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(7, 48, 94);
+    font-weight: bold;
+}
+
+.title-card .card:hover {
+    background-color: lightyellow;
+}
+
 #footer1 {
     background-color: #FFC700;
 }
@@ -44,4 +58,7 @@ footer #footer2 {
 }
 .navbar-toggler-icon {
     fill: white;
+}
+nav {
+    font-size: large;
 }
