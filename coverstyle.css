@@ -2,6 +2,8 @@ body{
     margin:0;
     padding:0;
     border:0;
+    background-image: url("img/hero.jpg");
+    background-size: cover;
 }
 #hero-img{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("img/hero.jpg");
