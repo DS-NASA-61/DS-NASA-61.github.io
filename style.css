@@ -15,11 +15,11 @@ body{
     margin: 10px;
 }*/
 
-   .navbar-brand{
+.navbar-brand{
     margin-top: 5px;
-   }
+}
 
-   .navbar {
+.navbar {
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     overflow: auto;
@@ -33,10 +33,13 @@ body{
     letter-spacing: 0.1em;
   }
 
+
+
   .navbar button{
     margin-right:10px;
   }
-  .navbar a{
+
+.navbar a{
     margin-left: 20px;
     font-family: Oswald; 
     font-size: 20px; 
@@ -46,11 +49,28 @@ body{
     line-height: 30px;
     letter-spacing: 0.1em;
     color: white
-  }
+}
+
 
 .title{
     color: aliceblue;
 }
+
+.menu-header{
+    margin-top: 150px;
+}
+
+/* .menu{
+    margin-top: 800px;
+}
+
+.owl-carousel{
+    margin-top: 120px;
+}
+
+.menu-details{
+    margin-top: 140px;
+} */
 
 .card{
     background: rgba(255,255,255,0.8);
